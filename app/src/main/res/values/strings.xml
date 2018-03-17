@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MoneyMon</string>
+    <string name="title_operacion_detail">Operacion Detail</string>
+    <string name="title_activity_operation_new">OperationNewActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_list">List</string>
+
+    <string-array name="category_arrays">
+        <item>Comida</item>
+        <item>Ocio</item>
+        <item>Caprichos</item>
+        <item>Conejos</item>
+        <item>Casa</item>
+    </string-array>
+</resources>

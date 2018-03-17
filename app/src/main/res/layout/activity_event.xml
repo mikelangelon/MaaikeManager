@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/descriptionText"
+        android:layout_width="410dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Description"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/dateText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Date"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/WasteText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Waste"
+        android:inputType="textPersonName" />
+
+    <Spinner
+        android:id="@+id/categorySpin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/category_arrays"
+        android:layout_weight="1" />
+
+    <RadioGroup
+        android:id="@+id/radioPerson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/radioMaaike"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Maaike"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/radioMiguel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Miguel" />
+
+    </RadioGroup>
+    <Button
+        android:id="@+id/btnDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ok" />
+
+</LinearLayout>

@@ -43,10 +43,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.mcorvodiaz.moneymon.activities.OperacionListActivity" />
         </activity>
-        <activity
-            android:name=".OperationNewActivity"
-            android:label="@string/title_activity_operation_new"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
